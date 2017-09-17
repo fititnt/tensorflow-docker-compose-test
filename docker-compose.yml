@@ -1,0 +1,9 @@
+version: '3'
+services:
+  tensorflow:
+    image: tensorflow/tensorflow:latest
+    container_name: tensorflow
+    expose:
+      - 8888
+    ports:
+      - 8888:8888
